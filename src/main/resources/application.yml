@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27027
+      database: RedisDemoDB
+      username: bilge
+      password: bilge!123
+
+redis:
+  host: localhost
+  port: 6379
